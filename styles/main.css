@@ -1,0 +1,60 @@
+body * {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	height: 110px;
+	width: 100vw;
+	background-color: orange;
+}
+
+header .row {
+	padding-left: calc(1.04166666% + 20px);
+	padding-right: calc(1.04166666% + 20px);
+}
+
+header h1 {
+	font-size: 35px;
+	margin-bottom: 5px;
+}
+
+header h2 {
+	font-size: 18px;
+	margin-top: 0px;
+}
+
+main {
+	padding-top: 30px;
+}
+
+.col .pic {
+	width: 100%;
+}
+
+.card {
+	border: 1px solid lightgrey;
+	height: 100%;
+}
+
+.card .caption {
+	height: 5em;
+	padding-left: 7%;
+	padding-right: 7%;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.card .caption * {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	margin: 0;
+}
+
+.card .caption .name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.card .caption .description {
+	font-size: 16px;
+}
